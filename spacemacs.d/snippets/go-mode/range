@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Range loop.
+#
+# --
+for $1 := range $2 {
+  $0
+}

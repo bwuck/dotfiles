@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+# name: __author__
+#
+# --
+__author__ = '${1:`user-mail-address`} (${2:`(user-full-name)`})'$0

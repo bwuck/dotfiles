@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: from ... import ...
+#
+# --
+from $1 import $0

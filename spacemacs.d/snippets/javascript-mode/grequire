@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: goog.require(...);
+#
+# --
+goog.require('$1');$0

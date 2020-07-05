@@ -1,0 +1,101 @@
+# -*- mode: snippet -*-
+# name: AngularJS directive.
+# expand-env: ((yas/indent-line 'fixed))
+#
+# --
+goog.provide('$1.$2');
+goog.provide('$1.$2.module');
+
+goog.scope(function() {
+
+
+
+/**
+ * ${4:A short description.}
+ *
+ * @constructor
+ * @ngInject
+ */
+${1:ns}.${2:Name} = function() {
+  return {
+    'terminal': false,
+    'priority': 0,
+    'restrict': 'EAMC',
+    'require': [],
+    'replace': true,
+    'transclude': true,
+    'scope': {
+      'attribute1': '@',
+      'attribute2': '=',
+      'handler': '&'
+    },
+    'template': '<span ng-transclude></span>',
+    'controller': $1.$2.Controller,
+    'controllerAs': '',
+    'compile': $1.$2.compile_,
+    'link': $1.$2.link_
+  };
+};
+var $2 = $1.$2;
+
+
+/** Name used by AngularJS dependency injector. */
+$2.NG_NAME = '$5';
+
+
+/**
+ * Module used by AngularJS dependency injector.
+ *
+ * @type {!angular.Module}
+ */
+$2.module = angular.module('$1.$2', [])
+    .directive($2.NG_NAME, $2);
+
+
+/**
+ * Links the DOM to its scope for the directive.
+ *
+ * @param {!angular.Scope} scope The scope of the directive.
+ * @param {!angular.JQLite} element The element wrapped by AngularJS.
+ * @param {!angular.Attributes} attributes The attributes available to the
+ *     directive.
+ * @param {!Object|!Array.<!Object>} controllers A controller or an array of
+ *     controllers brought in as a result of requiring parent directives.
+ * @param {Function} transclude A transclude linking function.
+ * @private
+ */
+$2.link_ = function(
+    scope, element, attributes, controllers, transclude) {
+
+};
+
+
+/**
+ * Compiles the DOM from the template for the directive.
+ *
+ * @param {!angular.jQLite} tElement The template element wrapped by AngularJS.
+ * @param {!angular.Attributes} tAttributes The template attributes
+ *     available to the directive during the compilation phase.
+ * @param {Function} transclude A transclude linking function.
+ * @private
+ */
+$2.compile_ = function(tElement, tAttributes, transclude) {
+
+};
+
+
+
+/**
+ * Controller associated with the directive.
+ *
+ * @param {!angular.Scope} $scope Angular scope.
+ * @constructor
+ * @ngInject
+ */
+$2.Controller = function($scope) {
+  /** @private {!angular.Scope} */
+  this.scope_ = $scope;
+};
+var Controller = $2.Controller;
+
+});  // goog.scope

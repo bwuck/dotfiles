@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: <tag></tag>
+#
+# --
+<${1:element}${2:}>
+  $0
+</$1>

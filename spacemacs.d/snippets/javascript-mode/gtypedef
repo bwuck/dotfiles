@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Google Closure type definition.
+# key: gtypedef
+#
+# --
+/** @typedef {$2} */
+$1;$0

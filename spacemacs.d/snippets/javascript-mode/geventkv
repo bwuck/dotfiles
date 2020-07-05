@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: goog event type key-value pair
+#
+# --
+${1:$(upcase yas/text)}: goog.events.getUniqueId('$1')$0

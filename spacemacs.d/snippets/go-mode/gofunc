@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: go func(){...}()
+#
+# --
+go func($1) {
+   $0
+}($2)

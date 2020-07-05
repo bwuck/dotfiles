@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Note line.
+#
+# --
+// NOTE(${1:`user-login-name`}): $0

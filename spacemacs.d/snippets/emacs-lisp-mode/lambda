@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: (lambda function_name ...)
+# key: lambda
+#
+# --
+(lambda ($1)
+  $0)

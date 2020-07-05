@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: case statement
+#
+# --
+case $1:
+     $0

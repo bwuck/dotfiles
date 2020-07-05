@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Hack line.
+#
+# --
+// HACK(${1:`user-login-name`}): $0

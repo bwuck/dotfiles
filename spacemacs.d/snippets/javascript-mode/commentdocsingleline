@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Single-line Delimited Documentation Comment
+#
+# key: ###
+# --
+/** $1 */$0

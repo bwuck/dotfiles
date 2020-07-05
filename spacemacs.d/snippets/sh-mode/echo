@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: echo
+#
+# --
+echo "$0";

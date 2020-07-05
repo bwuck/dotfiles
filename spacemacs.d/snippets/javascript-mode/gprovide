@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: goog.provide(...);
+#
+# --
+goog.provide('$1');$0

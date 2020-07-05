@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: {msg ...}{/msg}
+#
+# --
+{msg desc="${1:help text for translators}"}
+$0
+{/msg}

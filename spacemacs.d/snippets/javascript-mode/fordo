@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: for loop (scoped)
+# key: fordo
+#
+# --
+for ($1; $2; $3) {(function($4){
+    $0
+})($5);}

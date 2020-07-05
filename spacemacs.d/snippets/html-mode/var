@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Jinja2 variable expansion
+#
+# --
+{{ $0 }}

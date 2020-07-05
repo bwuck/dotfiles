@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: Google Closure Class
+# expand-env: ((yas/indent-line 'fixed))
+#
+# --
+goog.provide('${1:namespace}.${2:ClassName}');
+
+goog.scope(function() {
+
+
+
+/**
+ * ${5:Short description of the class.}
+ *
+ * @constructor
+ */
+$1.$2 = function($4) {
+  $0
+};
+var $2 = $1.$2;
+
+});  // goog.scope

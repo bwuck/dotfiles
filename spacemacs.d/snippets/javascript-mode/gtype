@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Google TypeCasting.
+# key: #type
+#
+# --
+/** @type {$1} */$0

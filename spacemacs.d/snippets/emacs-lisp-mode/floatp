@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: (floatp ... ...)
+# key: floatp
+#
+# --
+(floatp $1)$0

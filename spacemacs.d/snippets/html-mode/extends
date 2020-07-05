@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Jinja2 extends
+#
+# --
+{% extends "${1:name}" %}$0

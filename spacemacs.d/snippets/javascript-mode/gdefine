@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: /** @define */ var ... = ...;
+#
+# --
+/** @define {${1:type}} ${2:Short description.} */
+$3 = $0;

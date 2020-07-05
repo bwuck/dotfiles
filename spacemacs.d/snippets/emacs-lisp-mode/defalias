@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: (defalias alias for)
+#
+# --
+(defalias ${1:alias} ${2:for})$0

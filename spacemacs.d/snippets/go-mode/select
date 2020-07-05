@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: select case statement
+#
+# --
+select {
+case $2:
+     $0
+}

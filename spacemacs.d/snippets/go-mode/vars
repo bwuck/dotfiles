@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: var group
+#
+# --
+var (
+    $0
+)

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: defn
+#
+# --
+(defn ${1:name}
+  "$3"
+  [$4]
+  $0)

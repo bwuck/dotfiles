@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Todo line.
+#
+# --
+// TODO(${1:`user-login-name`}): $0

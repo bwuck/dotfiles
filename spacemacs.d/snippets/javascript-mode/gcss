@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: goog.getCssName()
+#
+# --
+goog.getCssName(${1:this.getCssClass()}, '$2')$0

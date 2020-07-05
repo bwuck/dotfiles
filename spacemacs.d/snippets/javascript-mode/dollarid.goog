@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: goog.dom.getElement(...)
+# key: g#
+#
+# --
+goog.dom.getElement($1)$0

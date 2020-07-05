@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Google @override.
+# key: #override
+#
+# --
+/** @override */
+$0

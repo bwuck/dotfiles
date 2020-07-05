@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: const group
+#
+# --
+const (
+      $0
+)

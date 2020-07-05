@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Bug line
+#
+# --
+http://b/${1:XXXXXXX}: $0

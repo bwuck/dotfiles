@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ... !== ...
+# key: isnot
+#
+# --
+$1 !== $0

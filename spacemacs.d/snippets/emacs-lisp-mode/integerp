@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: (integerp ... ...)
+# key: integerp
+#
+# --
+(integerp $1)$0

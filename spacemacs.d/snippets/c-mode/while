@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: while loop.
+#
+# expand-env: ((yas/indent-line 'fixed))
+# --
+while ($1) {
+  $0
+}

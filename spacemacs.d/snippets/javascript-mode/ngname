@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: NG_NAME property.
+# expand-env: ((yas/indent-line 'fixed))
+# --
+/**
+ * Name used by dependency injector.
+ *
+ * @const {string}
+ */
+$1.NG_NAME = '$2';

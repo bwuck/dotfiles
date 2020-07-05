@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: AngularJS controller.
+# expand-env: ((yas/indent-line 'fixed))
+#
+# --
+goog.provide('$1.$2');
+
+goog.scope(function() {
+
+
+
+/**
+ * ${4:A short description.}
+ *
+ * @constructor
+ * @ngInject
+ * @export
+ */
+${1:ns}.${2:ControllerName} = function() {
+
+};
+var $2 = $1.$2;
+
+
+/** Name used by dependency injector. */
+$2.NG_NAME = '$1.$2';
+
+});  // goog.scope

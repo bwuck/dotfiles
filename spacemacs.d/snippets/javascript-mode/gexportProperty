@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: goog.exportProperty(...);
+#
+# key: gep
+# --
+goog.exportProperty($1, '$2', $1.$2);$0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: multiple imports statement
+#
+# --
+import (
+  $0
+)

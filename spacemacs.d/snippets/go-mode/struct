@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Struct definition
+#
+# --
+struct {
+     $0
+}

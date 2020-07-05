@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Logger
+# expand-env: ((yas/indent-line 'fixed))
+#
+# --
+goog.require('goog.log');
+goog.require('goog.log.Level');
+
+
+/** @private {goog.log.Logger} */
+$1.prototype.logger_ = goog.log.getLogger(
+    '${2:namespace}', goog.log.Level.${3:$$(upcase yas/text)});$0

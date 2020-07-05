@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: JSDoc module documentation
+#
+# key: #file
+# --
+/**
+ * @fileoverview ${1:Short description.}
+ */
+
+$0

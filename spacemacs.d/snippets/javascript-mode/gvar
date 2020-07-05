@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: var ... = ...;
+#
+# --
+/**
+ * ${1:Short description.}
+ *
+ * @type {$2}
+ */
+var $3 = $0;

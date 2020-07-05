@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: Weekly Status Report
+#
+# --
+* ${1:Start date} - ${2:End date}
+$0
+
+* Tickets:
+
+
+* CLs:
+
+
+* Meetings:

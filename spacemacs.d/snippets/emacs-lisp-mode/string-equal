@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: (string-equal ... ...)
+# key: sequal
+#
+# --
+(string-equal $1 $0)

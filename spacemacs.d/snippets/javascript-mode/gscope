@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: goog.scope(function(){ ... });
+# expand-env: ((yas/indent-line 'fixed))
+#
+# --
+goog.scope(function() {
+
+$0
+
+});  // goog.scope

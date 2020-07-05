@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: <!doctype html>
+#
+# group: meta
+# --
+<!doctype html>$0
