@@ -517,6 +517,7 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
+  (setq sentence-end-double-space t)
   (drag-stuff-global-mode t)
   (drag-stuff-define-keys)
   ;; This is required for the key combination to work over ssh and tmux.
