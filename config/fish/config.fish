@@ -93,7 +93,11 @@ start_agent
 #     echo $_
 #   end
 # end
+#if type -q launchctl
+#  launchctl setenv PATH $PATH
+#end
 
 if type -q starship
- starship init fish | source
+  starship init fish | source
 end
+
