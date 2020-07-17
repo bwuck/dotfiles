@@ -108,7 +108,8 @@ This function should only modify configuration layer settings."
    ;; Also include the dependencies as they will not be resolved automatically.
    dotspacemacs-additional-packages '(drag-stuff
                                       rmsbolt
-                                      monky)
+                                      monky
+                                      (flatbuffers-mode :location (recipe :fetcher github :repo "Asalle/flatbuffers-mode")))
 
    ;; A list of
    dotspacemacs-frozen-packages '()
@@ -517,6 +518,7 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
+  (setq projectile-enable-caching t)
   (setq adaptive-wrap-prefix-mode nil)  ;; Rust completion is slow. Fix?
   (setq sentence-end-double-space t)
   (drag-stuff-global-mode t)
