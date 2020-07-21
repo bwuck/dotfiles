@@ -43,12 +43,12 @@ This function should only modify configuration layer settings."
                       auto-completion-tab-key-behavior 'complete
                       auto-completion-complete-with-key-sequence nil
                       auto-completion-complete-with-key-sequence-delay 0.1
-                      auto-completion-minimum-prefix-length 1
+                      auto-completion-minimum-prefix-length 2
                       auto-completion-idle-delay 0.1
                       auto-completion-private-snippets-directory nil
-                      auto-completion-enable-snippets-in-popup nil
-                      auto-completion-enable-help-tooltip nil
-                      auto-completion-use-company-box nil
+                      auto-completion-enable-snippets-in-popup t
+                      auto-completion-enable-help-tooltip t
+                      auto-completion-use-company-box t
                       auto-completion-enable-sort-by-usage t)
      better-defaults
      (c-c++ :variables
@@ -67,6 +67,7 @@ This function should only modify configuration layer settings."
      git
      github
      go
+     gtags
      helm
      ;; html
      ;; java
@@ -252,7 +253,7 @@ It should only modify the values of Spacemacs settings."
    dotspacemacs-colorize-cursor-according-to-state t
 
    ;; Default font or prioritized list of fonts.
-   dotspacemacs-default-font '(("Cascadia Code"
+   dotspacemacs-default-font '(("Cascadia Code PL"
                                 :size 15.0
                                 :weight normal
                                 :width normal)
