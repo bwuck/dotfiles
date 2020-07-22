@@ -519,7 +519,7 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
-  (setq projectile-enable-caching t)
+  (setq projectile-enable-caching nil)  ;; Setting this to true causes some files to be ignored.
   (setq adaptive-wrap-prefix-mode nil)  ;; Rust completion is slow. Fix?
   (setq sentence-end-double-space t)
   (drag-stuff-global-mode t)
