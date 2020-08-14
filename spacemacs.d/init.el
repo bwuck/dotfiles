@@ -254,7 +254,7 @@ It should only modify the values of Spacemacs settings."
    dotspacemacs-colorize-cursor-according-to-state t
 
    ;; Default font or prioritized list of fonts.
-   dotspacemacs-default-font '(("Cascadia Code PL"
+   dotspacemacs-default-font '(("Cascadia Code"
                                 :size 15.0
                                 :weight normal
                                 :width normal)
