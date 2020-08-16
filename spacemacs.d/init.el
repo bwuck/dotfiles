@@ -260,7 +260,7 @@ It should only modify the values of Spacemacs settings."
    ;; Default font or prioritized list of fonts.
    dotspacemacs-default-font '(("Cascadia Code" ;; PL variant doesn't work everywhere.
                                 :size 13.0
-                                :weight normal
+                                :weight regular
                                 :width normal)
                                ("Fira Code"
                                 :size 15.0
