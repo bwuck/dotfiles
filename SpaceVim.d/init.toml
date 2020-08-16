@@ -76,3 +76,6 @@ default_height = 30
 [[custom_plugins]]
   repo = "bazelbuild/vim-bazel"
 
+[[custom_plugins]]
+  repo = "rhysd/vim-clang-format"
+
