@@ -23,6 +23,7 @@ if status --is-interactive
   # Not suffixing with $PATH to be consistent accross OS.
   # Now set the correct PATH environment variable.
   set -x PATH \
+    /snap/bin \
     /mingw64/bin \
     $HOME/.local/bin \
     $HOME/go/bin \
