@@ -43,7 +43,7 @@ This function should only modify configuration layer settings."
                       auto-completion-tab-key-behavior 'complete
                       auto-completion-complete-with-key-sequence nil
                       auto-completion-complete-with-key-sequence-delay 0.1
-                      auto-completion-minimum-prefix-length 2
+                      auto-completion-minimum-prefix-length 1
                       auto-completion-idle-delay 0.1
                       auto-completion-private-snippets-directory nil
                       auto-completion-enable-snippets-in-popup nil
@@ -93,6 +93,7 @@ This function should only modify configuration layer settings."
      spell-checking
      syntax-checking
      themes-megapack
+     tla
      treemacs
      typescript
      (version-control :variables
