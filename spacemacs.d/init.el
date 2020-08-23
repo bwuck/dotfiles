@@ -93,7 +93,6 @@ This function should only modify configuration layer settings."
      spell-checking
      syntax-checking
      themes-megapack
-     tla
      treemacs
      typescript
      (version-control :variables
