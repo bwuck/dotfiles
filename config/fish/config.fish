@@ -6,6 +6,8 @@ if status --is-interactive
 
   set -x OS (/usr/bin/uname)
   switch $OS
+    case FreeBSD
+  set -x LLVM_HOME /usr/local/llvm-devel 
     case Linux
   set -x LLVM_HOME /usr/local/opt/llvm
     case Darwin
