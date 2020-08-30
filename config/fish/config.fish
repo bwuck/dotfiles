@@ -6,6 +6,8 @@ if status --is-interactive
 
   set -x OS (/usr/bin/uname)
   switch $OS
+    case FreeBSD
+  set -x LLVM_HOME /usr/local/llvm-devel 
     case Linux
   set -x LLVM_HOME /usr/local/opt/llvm
     case Darwin
@@ -23,6 +25,7 @@ if status --is-interactive
   # Not suffixing with $PATH to be consistent accross OS.
   # Now set the correct PATH environment variable.
   set -x PATH \
+    /snap/bin \
     /mingw64/bin \
     $HOME/.local/bin \
     $HOME/go/bin \
