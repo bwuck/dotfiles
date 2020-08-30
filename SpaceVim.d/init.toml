@@ -23,8 +23,8 @@
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
-    bootstrap_before = myspacevim#before
-    bootstrap_after = myspacevim#after
+    bootstrap_before = "myspacevim#before"
+    bootstrap_after = "myspacevim#after"
 
 # Enable autocomplete layer
 [[layers]]
@@ -54,7 +54,7 @@
 
 [[layers]]
   name = "lang#javascript"
-  
+
 [[layers]]
   name = "lang#typescript"
 
