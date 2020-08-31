@@ -25,11 +25,11 @@ if status --is-interactive
     # Not suffixing with $PATH to be consistent accross OS.
     # Now set the correct PATH environment variable.
     set -x PATH \
+        $HOME/.local/bin \
+        $HOME/.cargo/bin \
+        $HOME/go/bin \
         /snap/bin \
         /mingw64/bin \
-        $HOME/.local/bin \
-        $HOME/go/bin \
-        $HOME/.cargo/bin \
         $LLVM_HOME/bin \
         /usr/local/bin \
         /usr/local/sbin \
