@@ -1,6 +1,10 @@
 function! myspacevim#before() abort
 
   " Use clang-format by default for C++ and C.
+  let g:neoformat_c_clangformat = {
+        \ 'exe': 'clang-format',
+        \ 'args': ['-style=file'],
+        \ }
   let g:neoformat_enabled_cpp = ['clangformat']
   let g:neoformat_enabled_c = ['clangformat']
   let g:neoformat_basic_format_align = 1
