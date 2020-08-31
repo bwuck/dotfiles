@@ -98,7 +98,8 @@ name = "tmux"
 name = "lang#latex"
 
 [[layers]]
-name = "VersionControl"
+# name = "VersionControl"
+name = "git"
 
 [[layers]]
 name = "lsp"
