@@ -45,7 +45,6 @@ if status --is-interactive
     end
 end
 
-
 setenv SSH_ENV $HOME/.ssh/environment
 
 function start_agent
@@ -84,16 +83,18 @@ end
 
 start_agent
 
-# function fish_title
-#   if [ $_ = 'fish' ]
-#     echo (prompt_pwd)
-#   else
-#     echo $_
-#   end
+function fish_title
+    if [ $_ = 'fish' ]
+        echo (prompt_pwd)
+    else
+        echo $_
+    end
+end
+
+# Mac OS specific hack to set the path.
+# if type -q launchctl
+#     launchctl setenv PATH $PATH
 # end
-#if type -q launchctl
-#  launchctl setenv PATH $PATH
-#end
 
 if type -q starship
     starship init fish | source
