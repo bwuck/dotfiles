@@ -13,12 +13,17 @@ function! myspacevim#before() abort
   let g:neoformat_basic_format_trim = 1
 
   " Autoformat buffers on save.
+  " See: https://github.com/sbdchd/neoformat/issues/134
   augroup fmt
     autocmd!
-    autocmd BufWritePre * undojoin | Neoformat
-    " Remove trailing whitespace.
-    " autocmd BufWritePre * %s/\s\+$//e
+    au BufWritePre * try | undojoin | Neoformat | catch /^Vim\%((\a\+)\)\=:E790/ | finally | silent Neoformat | endtry
   augroup END
+  " augroup fmt
+  " autocmd!
+  " autocmd BufWritePre * undojoin | Neoformat
+  " Remove trailing whitespace.
+  " autocmd BufWritePre * %s/\s\+$//e
+  " augroup END
 
 endfunction
 
