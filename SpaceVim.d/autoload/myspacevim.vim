@@ -1,5 +1,7 @@
 function! myspacevim#before() abort
 
+  let g:neomake_open_list = 0
+
   " Use clang-format by default for C++ and C.
   let g:neoformat_c_clangformat = {
         \ 'exe': 'clang-format',
