@@ -1,5 +1,10 @@
 function! myspacevim#before() abort
 
+  :command WQ wq
+  :command Wq wq
+  :command W w
+  :command Q q
+
   let g:neomake_open_list = 0
 
   " Use clang-format by default for C++ and C.
