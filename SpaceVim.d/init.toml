@@ -100,6 +100,9 @@ repo = "google/vim-maktaba"
 [[custom_plugins]]
 repo = "bazelbuild/vim-bazel"
 
+#[[custom_plugins]]
+#repo = "rhysd/vim-clang-format"
+
 [[custom_plugins]]
-repo = "rhysd/vim-clang-format"
+repo = "jceb/vim-orgmode"
 
