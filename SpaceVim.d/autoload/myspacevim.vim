@@ -31,6 +31,8 @@ function! myspacevim#before() abort
   " autocmd BufWritePre * %s/\s\+$//e
   " augroup END
 
+  autocmd BufRead,BufNewFile *.bzl,*.BUILD,WORKSPACE,BUILD.bazel setf bzl
+
 endfunction
 
 function! myspacevim#after() abort

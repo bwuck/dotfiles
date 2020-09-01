@@ -1,2 +1,2 @@
-autocmd BufNewFile,BufRead *.BUILD set syntax=bzl
+#autocmd BufRead,BufNewFile *.bzl,*.BUILD,WORKSPACE,BUILD.bazel setf bzl
 
