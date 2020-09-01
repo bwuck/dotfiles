@@ -5,6 +5,7 @@ function! myspacevim#before() abort
   :command W w
   :command Q q
 
+
   let g:neomake_open_list = 0
 
   " Use clang-format by default for C++ and C.
@@ -33,5 +34,6 @@ function! myspacevim#before() abort
 endfunction
 
 function! myspacevim#after() abort
+  " au BufNewFile,BufRead *.BUILD set syntax=bzl
 endfunction
 
