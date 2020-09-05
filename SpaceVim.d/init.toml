@@ -9,6 +9,7 @@ enable_tabline_filetype_icon = true
 enable_statusline_mode = false
 bootstrap_before = "myspacevim#before"
 bootstrap_after = "myspacevim#after"
+autocomplete_method = "deoplete"
 
 [[layers]]
 name = 'autocomplete'
