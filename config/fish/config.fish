@@ -2,7 +2,8 @@ if status --is-interactive
     set -x LC_ALL en_US.UTF-8
     set -x LANG en_US.UTF-8
 
-    set EDITOR /usr/local/bin/vim
+    set -x EDITOR vim
+    set -x GIT_EDITOR vim
 
     set -x OS (/usr/bin/uname)
     switch $OS
