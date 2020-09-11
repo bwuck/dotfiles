@@ -11,6 +11,7 @@ if status --is-interactive
         case Linux
             set -x LLVM_HOME /usr/local/opt/llvm
         case Darwin
+            set -x DEVELOPER_DIR "/Applications/Xcode.app/Contents/Developer"
             # Java Home.
             #set -x JAVA_HOME (/usr/libexec/java_home -v 1.8)
             #set -x JAVA_HOME (/usr/libexec/java_home)
