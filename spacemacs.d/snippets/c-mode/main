@@ -3,7 +3,9 @@
 #
 # expand-env: ((yas/indent-line 'fixed))
 # --
-int main(int argc, char *argv[]) {
+int
+main(int argc, char *argv[]) {
   $0
-  return 0;
+
+  return EXIT_SUCCESS;
 }

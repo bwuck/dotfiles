@@ -41,12 +41,12 @@
        (auto-completion :variables
                         auto-completion-return-key-behavior nil ;; 'cycle
                         auto-completion-tab-key-behavior 'complete
-                        auto-completion-complete-with-key-sequence nil
+                        auto-completion-complete-with-key-sequence "jk"
                         auto-completion-complete-with-key-sequence-delay 0.1
                         auto-completion-minimum-prefix-length 1
                         auto-completion-idle-delay 0.1
                         auto-completion-private-snippets-directory nil
-                        auto-completion-enable-snippets-in-popup nil
+                        auto-completion-enable-snippets-in-popup t
                         auto-completion-enable-help-tooltip nil
                         auto-completion-use-company-box t
                         auto-completion-enable-sort-by-usage t)
@@ -63,7 +63,7 @@
        (bazel :variables
               ;; cd ~/.emacs.d/private; ln -s ~/.dotfiles/spacemacs-config/bazel
               bazel-mode-buildifier-before-save t)
-       emacs-lisp
+       ;; emacs-lisp ;; buggy.
        fzf
        git
        github
