@@ -485,7 +485,7 @@
     ;; `trailing' to delete only the whitespace at end of lines, `changed' to
     ;; delete only whitespace for changed lines or `nil' to disable cleanup.
     ;; (default nil)
-    dotspacemacs-whitespace-cleanup 'all
+    dotspacemacs-whitespace-cleanup 'trailing ;; don't set this to all. it screws up formatting in code.
 
     ;; Either nil or a number of seconds. If non-nil zone out after the specified
     ;; number of seconds. (default nil)
