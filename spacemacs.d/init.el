@@ -535,7 +535,10 @@
   (global-set-key (kbd "ESC <up>") 'drag-stuff-up)
   (global-set-key (kbd "ESC <down>") 'drag-stuff-down)
   ;; Account for the :W typo.
-  (evil-ex-define-cmd "W[rite]" 'evil-write))
+  (evil-ex-define-cmd "W[rite]" 'evil-write)
+  ;; Use EOL comments for C. Defaults to /* */.
+  (add-hook 'c-mode-hook (lambda () (setq comment-start "//" comment-end "")))
+  )
 
 ;; (spacemacs/toggle-transparency)
 
