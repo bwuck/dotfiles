@@ -41,7 +41,7 @@
        (auto-completion :variables
                         auto-completion-return-key-behavior nil ;; 'cycle
                         auto-completion-tab-key-behavior 'complete
-                        auto-completion-complete-with-key-sequence "jk"
+                        auto-completion-complete-with-key-sequence nil
                         auto-completion-complete-with-key-sequence-delay 0.1
                         auto-completion-minimum-prefix-length 1
                         auto-completion-idle-delay 0.1
@@ -240,10 +240,20 @@
     ;; Press `SPC T n' to cycle to the next theme in the list (works great
     ;; with 2 themes variants, one dark and one light)
     ;; Pick a theme from: https://themegallery.robdor.com/
-    dotspacemacs-themes '(gruvbox
-                           spacemacs-dark
-                           solarized-light
-                           spacemacs-light)
+    dotspacemacs-themes '(
+                          tao-yin
+                          tao-yang
+                          minimal
+                          minimal-light
+                          monochrome
+                          spacegray
+                          wilson
+                          gruvbox
+                          zenburn
+                          solarized-light
+                          whiteboard
+                          spacemacs-dark
+                          spacemacs-light)
 
     ;; Set the theme for the Spaceline. Supported themes are `spacemacs',
     ;; `all-the-icons', `custom', `doom', `vim-powerline' and `vanilla'. The
