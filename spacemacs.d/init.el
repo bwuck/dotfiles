@@ -241,7 +241,7 @@
     ;; with 2 themes variants, one dark and one light)
     ;; Pick a theme from: https://themegallery.robdor.com/
     dotspacemacs-themes '(
-                          gruvbox
+                          doom-gruvbox
                           wilson
                           minimal
                           minimal-light
