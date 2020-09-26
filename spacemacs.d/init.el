@@ -241,14 +241,14 @@
     ;; with 2 themes variants, one dark and one light)
     ;; Pick a theme from: https://themegallery.robdor.com/
     dotspacemacs-themes '(
+                          gruvbox
+                          wilson
                           minimal
                           minimal-light
                           tao-yin
                           tao-yang
                           monochrome
                           spacegray
-                          wilson
-                          gruvbox
                           zenburn
                           solarized-light
                           whiteboard
@@ -520,6 +520,7 @@
   configuration.
   It is mostly for variables that should be set before packages are loaded.
   If you are unsure, try setting them in `dotspacemacs/user-config' first."
+  (add-to-list 'custom-theme-load-path "~/.spacemacs.d/themes/")
   )
 
 (defun dotspacemacs/user-load ()
