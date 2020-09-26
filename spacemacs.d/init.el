@@ -60,6 +60,7 @@
               c-c++-enable-clang-format-on-save t)
        (clojure :variables
                 clojure-enable-linters 'clj-kondo)
+       common-lisp
        ;; dart
        (bazel :variables
               ;; cd ~/.emacs.d/private; ln -s ~/.dotfiles/spacemacs-config/bazel
