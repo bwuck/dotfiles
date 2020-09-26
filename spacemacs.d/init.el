@@ -241,10 +241,10 @@
     ;; with 2 themes variants, one dark and one light)
     ;; Pick a theme from: https://themegallery.robdor.com/
     dotspacemacs-themes '(
-                          tao-yin
-                          tao-yang
                           minimal
                           minimal-light
+                          tao-yin
+                          tao-yang
                           monochrome
                           spacegray
                           wilson
