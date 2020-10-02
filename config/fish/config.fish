@@ -27,6 +27,7 @@ if status --is-interactive
     # Not suffixing with $PATH to be consistent accross OS.
     # Now set the correct PATH environment variable.
     set -x PATH \
+        $HOME/.emacs.d/bin \
         $HOME/.local/bin \
         $HOME/.cargo/bin \
         $HOME/go/bin \
