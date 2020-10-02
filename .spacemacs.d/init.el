@@ -80,7 +80,7 @@
        multiple-cursors
        (org :variables
             org-enable-github-support t)
-       parinfer
+       ;;parinfer
        protobuf
        python
        ;; reason
@@ -245,12 +245,12 @@
     ;; with 2 themes variants, one dark and one light)
     ;; Pick a theme from: https://themegallery.robdor.com/
     dotspacemacs-themes '(
+                          tao-yin
+                          tao-yang
                           doom-gruvbox
                           wilson
                           minimal
                           minimal-light
-                          tao-yin
-                          tao-yang
                           monochrome
                           spacegray
                           zenburn
