@@ -30,6 +30,7 @@ if status --is-interactive
         $HOME/.emacs.d/bin \
         $HOME/.local/bin \
         $HOME/.cargo/bin \
+        $HOME/.yarn/bin \
         $HOME/go/bin \
         /snap/bin \
         /mingw64/bin \
