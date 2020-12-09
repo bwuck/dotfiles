@@ -29,6 +29,7 @@ if status --is-interactive
     set -x PATH \
         $HOME/.emacs.d/bin \
         $HOME/.local/bin \
+        $HOME/.python/bin \
         $HOME/.cargo/bin \
         $HOME/go/bin \
         /snap/bin \
