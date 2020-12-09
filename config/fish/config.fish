@@ -31,6 +31,7 @@ if status --is-interactive
         $HOME/.local/bin \
         $HOME/.cargo/bin \
         $HOME/.yarn/bin \
+	$HOME/flutter/bin \
         $HOME/go/bin \
         /snap/bin \
         /mingw64/bin \
