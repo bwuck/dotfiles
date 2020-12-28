@@ -53,3 +53,6 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;; Automatically reload files that have changed on disk.
+(global-auto-revert-mode 1)
