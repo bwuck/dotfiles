@@ -16,6 +16,7 @@ if status --is-interactive
             # Java Home.
             #set -x JAVA_HOME (/usr/libexec/java_home -v 1.8)
             #set -x JAVA_HOME (/usr/libexec/java_home)
+            #set -x JAVA_HOME /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.3.0/Contents/Home
             set -x LLVM_HOME /usr/local/opt/llvm
 
             # to use stdc++
@@ -32,7 +33,8 @@ if status --is-interactive
         $HOME/.python/bin \
         $HOME/.cargo/bin \
         $HOME/.yarn/bin \
-	$HOME/flutter/bin \
+        $HOME/flutter/bin \
+        $JAVA_HOME/bin \
         $HOME/go/bin \
         /snap/bin \
         /mingw64/bin \
